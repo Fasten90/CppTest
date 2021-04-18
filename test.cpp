@@ -36,7 +36,17 @@ int main()
     TestClass created2 = TestClass(1,2);
     
     created2.Print();
-    
+
+    /* Result:
+
+    Constructor executed
+    Constructor executed
+    Priv: 1
+    Pub: 2
+    Destructor executed
+    Destructor executed
+    */
+
     return 0;
 }
 
